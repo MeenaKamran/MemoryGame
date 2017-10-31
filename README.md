@@ -13,7 +13,7 @@
  * If it isn't a match, the background of the cards turn `red` & the cards are turned face down.
  * The user continues to play the game, till all cards are turned facing up.
  * The user can select the refresh button at any point, to restart the game, it is located above the cards.
- * At the end of the game, a `summary` page is shown with the following info: # of moves, star-rating, and how long it took them. Along with a re-play button.
+ * At the end of the game, a `summary` page is shown with the following info: # of moves, star-rating, and how long it took them. Along with a re-play button, as show below.
 
  ![alt text](img/SummaryPage.png "Summary Page")
 
