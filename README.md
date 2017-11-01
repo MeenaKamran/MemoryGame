@@ -2,8 +2,15 @@
 
 ## Table of Contents
 
+* [Installation](#installation)
 * [Instructions](#instructions)
 * [Contributing](#contributing)
+* [Built With](#built)
+
+## Installation
+
+ To load the game, simply download the project and open index.html in the browser.
+ Once, you click on one of the cards, the game will begin.
 
 ## Instructions
 
