@@ -150,13 +150,13 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 640px) {
     h1 {
         font-size: 1.8em;
     }
     .deck {
       width: 400px;
-      min-height: 680px;
+      min-height: 400px;
     }
     .deck .card {
         height: 80px;
