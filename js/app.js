@@ -15,7 +15,9 @@ $(function() {
 function refresh() {
 
   $('.deck').empty();
-  startTimer();
+  stopTimer();
+  $('.elapsedTime').text(timerValue);
+
   let secondStar = $('.stars').children('li:nth-child(2)').children('i');
   let thirdStar = $('.stars').children('li:nth-child(3)').children('i');
   secondStar.removeClass('fa fa-star-o');
@@ -76,6 +78,9 @@ function displayCards (cards) {
  */
  function addClickHandler() {
    $('.card').on('click', function() {
+     if (timerValue === 0) {
+       startTimer();
+     }
      $(this).addClass('open show');
      checkMatch();
    })
@@ -181,7 +186,6 @@ function displayScoreBoard(moveCnt) {
 *    + initializes the timer and updates it every 1000milli-seconds.
 */
 function startTimer() {
-  timerValue = 0;
   timerInterval = setInterval(updateTimer, 1000);
 }
 
@@ -197,6 +201,6 @@ function updateTimer() {
 *    + stops the timer.
 */
 function stopTimer() {
-  clearInterval(timerInterval);
   timerValue = 0;
+  clearInterval(timerInterval);
 }
