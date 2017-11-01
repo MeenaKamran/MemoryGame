@@ -149,3 +149,17 @@ h1 {
 #playAgain_btn:focus {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 570px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    .deck {
+      width: 400px;
+      min-height: 680px;
+    }
+    .deck .card {
+        height: 80px;
+        width: 80px;
+    }
+}
