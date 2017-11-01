@@ -4,7 +4,7 @@
 
 * [Installation](#installation)
 * [Instructions](#instructions)
-* [Built With](#built with)
+* [Built With](#Built With)
 * [Contributing](#contributing)
 
 ## Installation
