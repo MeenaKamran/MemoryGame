@@ -10,6 +10,8 @@
 ## Installation
 
  To load the game, simply download the project and open `index.html` in the browser.
+ Or can go to the following link: https://meenakamran.github.io/MemoryGame/
+ 
  Once, you click on anyone of the cards, the game will begin.
 
 ## Instructions
